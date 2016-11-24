@@ -20,7 +20,9 @@ public class ZdravoController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String printHello(ModelMap model) {
-        model.addAttribute("poruka", "MArko Damnjanovic 2335");
+        model.addAttribute("poruka", "Marko Damnjanovic 2335");
         return "pozdrav";
     }
+    
+   
 }
